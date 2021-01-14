@@ -46,7 +46,7 @@
         "nsgName": "[tolower(concat('ng', resourceGroup().name))]",
         "nsgID": "[resourceId('Microsoft.Network/networkSecurityGroups',variables('nsgName'))]",
         "exchangeInstallerPath": "InstallerExchange",
-        "exchangeISOUri": "https://download.microsoft.com/download/1/F/7/1F777B44-32CB-4F3D-B486-3D0F566D79A9/ExchangeServer2016-x64-cu8.iso",
+        "exchangeISOUri": "https://download.my.visualstudio.com/db/mu_exchange_server_2013_with_sp1_x64_dvd_4059293.iso?t=41cad4b3-c8ae-445e-b453-0d8577379d20&e=1610673511&h=dcc43f3270e6db07414c7018dd741048&su=1",
         "modulesExchangeISODownload": "CSDownloadISO.ps1",
         "modulesUrlExchangeISODownload": "[concat(variables('modulesPath'),variables('modulesExchangeISODownload'))]"
     },
